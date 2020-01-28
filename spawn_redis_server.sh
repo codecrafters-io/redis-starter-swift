@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Spawning Redis server..."
-pipenv run python app/main.py
+swift app/main.py
