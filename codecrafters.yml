@@ -8,7 +8,7 @@ current_stage: 1
 #
 # These can be VERY verbose, so we suggest turning them off
 # unless you really need them.
-debug: false
+debug: true
 
 
 
