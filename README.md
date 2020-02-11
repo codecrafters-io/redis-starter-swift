@@ -12,7 +12,7 @@ event loops, the Redis protocol and more.
 
 1. Ensure you have `swift (5.1)` installed locally
 1. Run `make run_local_server` to run your Redis server, which is implemented in
-   `Sources/app/main.swift`.
+   `app/main.swift`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
 1. Once you pass a stage, increment the `current_stage` value in
@@ -34,7 +34,7 @@ git push origin master
 You should see a failure message that says it wasn't able to connect to port
 `6379`.
 
-Go to `Sources/app/main.swift` and uncomment the server implementation. Commit and
+Go to `app/main.swift` and uncomment the server implementation. Commit and
 push your changes, and you'll now see the first stage pass.
 
 Time to move on to the next stage! Bump the `current_stage` value in
