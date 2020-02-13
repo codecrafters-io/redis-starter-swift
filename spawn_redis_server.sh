@@ -1,5 +1,4 @@
 #!/bin/sh
 
 echo "Spawning Redis server..."
-swift build
-./.build/debug/app
+swift app/main.swift
